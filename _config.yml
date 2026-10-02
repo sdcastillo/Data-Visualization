@@ -1,0 +1,29 @@
+# SamWiki theme contract
+# Theme setup follows GitHub's Jekyll theme guide:
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+#
+# Strategy: one supported theme, jekyll-theme-cayman, skinned in assets/css/style.scss.
+# Other project Pages repositories should copy:
+#   _config.yml          (this theme line; set the project title and description)
+#   assets/css/style.scss
+#   _layouts/default.html
+#   _includes/head-custom.html
+#   _includes/samwiki-nav.html
+# and set `samwiki: true` in the page front matter.
+#
+# This project site publishes from the default branch (`master`) at the
+# repository root. Leave baseurl unset so GitHub Pages supplies
+# /Data-Visualization.
+
+title: Every picture tells a story … don’t it?
+description: 2019 SOA symposium slides on communication efficiency and practical data visualization.
+theme: jekyll-theme-cayman
+show_downloads: false
+markdown: kramdown
+
+exclude:
+  - index_cache
+  - index_files
+  - Makefile
+  - soa_symposium_2019.Rproj
+  - vendor
