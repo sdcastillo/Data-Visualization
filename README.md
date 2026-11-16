@@ -6,4 +6,4 @@ GitHub Pages publishes the explainer and the original reveal.js deck from this r
 
 https://sdcastillo.github.io/Data-Visualization/
 
-The deck is `slides/index.html`. The R Markdown source is `index.Rmd`.
+The deck is `slides/index.html`. The R Markdown source is `index.Rmd`. The homepage also draws the talk’s 11-versus-9 comparison and a histogram counted from `data/hospital_readmission_rates.csv`.
